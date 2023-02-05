@@ -1,0 +1,5 @@
+file = open("text.csv", "a")
+file.write("a, b, c, d \n")
+file.write("1, 2, 3, 4 \n")
+file.write("5, 6, 7, 8 \n")
+file.close()
